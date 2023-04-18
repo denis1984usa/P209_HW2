@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <br><br><br>
+    <form>
+      <h1>Pizza Order Form</h1>
+      <fieldset>
+        <legend>Size</legend><br>
+        <label><input type="radio" name="size" value="small"> Small ($7.00)</label>
+        <label><input type="radio" name="size" value="medium"> Medium ($10.00)</label>
+        <label><input type="radio" name="size" value="large"> Large ($14.00)</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Toppings</legend><br>
+        <label><select name="toppings">
+          <option value="none">No Toppings</option>
+          <option value="one">One Topping ($2.00)</option>
+          <option value="two">Two Toppings ($3.00)</option>
+        </select></label>
+      </fieldset>
+      <br>
+      <button type="submit">Submit Order</button><br>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
